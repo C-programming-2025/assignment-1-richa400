@@ -1,4 +1,4 @@
-// Given two variables x and y, write an expression that calculates the average of their values.
+
 
 #include <stdio.h>
 
