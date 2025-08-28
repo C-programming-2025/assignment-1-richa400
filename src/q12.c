@@ -5,11 +5,11 @@
 int main() {
     int a, b, c;
     int result;
-    printf("Enter value for a: ");
+    printf("Enter value a: ");
     scanf("%d", &a);
-    printf("Enter value for b: ");
+    printf("Enter value b: ");
     scanf("%d", &b);
-    printf("Enter value for c: ");
+    printf("Enter value c: ");
     scanf("%d", &c);
     result = (a > b) && (c != 0);
     printf("%d\n", result);
