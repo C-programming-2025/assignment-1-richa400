@@ -12,6 +12,6 @@ int main() {
     printf("Enter value for c: ");
     scanf("%d", &c);
     result = (a > b) && (c != 0);
-    printf("The condition '(a > b) && (c != 0)' is: %d\n", result);
+    printf("%d\n", result);
     return 0;
 }
