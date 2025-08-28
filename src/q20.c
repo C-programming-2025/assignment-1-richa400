@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int n;
     printf("Enter a number: ");
-    scanf("%d", &num);
-    int is_multiple_of_3 = (num / 3) * 3 == num;
-    int is_multiple_of_5 = (num / 5) * 5 == num;
-    printf("%d\n", is_multiple_of_3 || is_multiple_of_5);
-
+    scanf("%d", &n);
+    printf("%d\n", (n % 3 == 0) || (n % 5 == 0));
     return 0;
 }
